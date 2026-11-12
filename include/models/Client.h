@@ -1,7 +1,7 @@
 #ifndef CLIENT_H
 #define CLIENT_H
 
-#include "models/Person.h"
+#include "Person.h"
 #include <ostream>
 
 class Client : public Person {

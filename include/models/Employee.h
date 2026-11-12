@@ -1,7 +1,7 @@
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
-#include "models/Person.h"
+#include "Person.h"
 #include <ostream>
 
 class Employee : public Person {
