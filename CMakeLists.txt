@@ -10,4 +10,9 @@ add_executable(SpaControlSystem src/main.cpp
         include/models/Service.h
         include/models/SpaPackage.h
         include/models/Room.h
-        include/models/InventoryItem.h)
+        include/models/InventoryItem.h
+        include/models/Appointment.h
+        include/core/Exceptions.h
+        include/core/Repository.h
+        include/core/FileManager.h
+        include/core/SpaSystem.h)
