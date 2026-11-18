@@ -138,7 +138,7 @@ void SpaSystem::schedule_appointment(int client_id, int employee_id, int room_id
     }
 
     if (check_collision(employee_id, room_id, date_time, service->get_duration())) {
-        throw ResourceCollisionException("Мастер (" + employee->getName() +
+        throw ResourceCollisionException("Мастер (" + employee->get_name() +
                                          ") или кабинет (" + room->get_name() +
                                          ") уже заняты на выбранное время!");
     }
